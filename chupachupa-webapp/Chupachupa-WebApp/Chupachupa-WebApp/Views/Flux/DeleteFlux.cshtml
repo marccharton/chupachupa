@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "DeleteFlux";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<nav class="breadcrumbs" style="margin-top: 20px">
+    <ul>
+        <li><a href="/Home/Index">Chupa</a></li>
+        <li class="active">@Html.ActionLink("Liste des flux", "List", new { catId = @ViewBag.catId })</li>
+    </ul>
+</nav>
+<fieldset>
+    <p id="boxUserName">Bonjour @ViewBag.userName, voulez-vous vous @Html.ActionLink(" déconnecter ?", "Logout")</p>
+</fieldset>
+<div class="tile-group" style="width: 100%">
+
+        <fieldset>
+            <legend>SUPPRESSION DU FLUX :  @ViewBag.channelName DE LA CATEGORIE : @ViewBag.catName</legend>
+            <label>Voulez-vous supprimer ce flux ?</label>
+            <div style="margin-top: 20px">
+            </div>
+            @Html.ActionLink("OUI", "DeleteFlux", new { catId = @ViewBag.catId, channelId = @ViewBag.channelId })
+        </fieldset>
+
+</div>

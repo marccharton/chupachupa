@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="ChupaChupa_Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+  <WebRole name="ChupaChupa-Service" vmsize="Small">
+    <Sites>
+      <Site name="Web">
+        <Bindings>
+          <Binding name="Endpoint1" endpointName="Endpoint1" />
+        </Bindings>
+      </Site>
+    </Sites>
+    <Endpoints>
+      <InputEndpoint name="Endpoint1" protocol="https" port="443" certificate="ChupaChupaCertificate" />
+    </Endpoints>
+    <Certificates>
+      <Certificate name="ChupaChupaCertificate" storeLocation="LocalMachine" storeName="My" />
+      <Certificate name="Authority" storeLocation="LocalMachine" storeName="AuthRoot" />
+    </Certificates>
+  </WebRole>
+</ServiceDefinition>

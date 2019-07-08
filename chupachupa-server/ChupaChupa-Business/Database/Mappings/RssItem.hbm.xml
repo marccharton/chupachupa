@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ChupaChupa-Entities"
+                   namespace="ChupaChupa.Entities">
+
+  <class name="RssItem" table="RSSITEM">
+    <id name="IdEntity" column="IDRSSITEM" unsaved-value="0">
+      <generator class="native" />
+    </id>
+
+    <property name="Title" column="TITLE"/>
+    <property name="Link" column="LINK"/>
+    <property name="Description" column="DESCRIPTION"/>
+    <property name="Author" column="AUTHOR"/>
+    <property name="Comments" column="COMMENTS"/>
+    <property name="Guid" column="GUID"/>
+    <property name="PubDate" column="PUBDATE"/>
+
+    <many-to-one name="Enclosure" unique="true" column="IDENCLOSURE" cascade="all"/>
+    <many-to-one name="Source" unique="true" column="IDSOURCE" cascade="all"/>
+
+    <bag name="RssCategory" table="RSSITEMRSSCATEGORY" cascade="save-update">
+      <key column="IDRSSITEM"/>
+      <many-to-many class="RssCategory" column="IDRSSCATEGORY"/>
+    </bag>
+    
+    <many-to-one name="RssChannel" class="RssChannel" >
+      <column name="IDRSSCHANNEL" not-null="true" />
+    </many-to-one>
+    
+  </class>
+
+</hibernate-mapping>
+
+

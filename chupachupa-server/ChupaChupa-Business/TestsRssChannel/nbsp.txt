@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE doctypeName [
+   <!ENTITY nbsp " ">
+]> 
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gendarmerie Nationale</title>
+    <link>http://www.gendarmerie.interieur.gouv.fr/</link>
+    <description></description>
+    <language>fr-FR</language>
+    <managingEditor>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</managingEditor>
+    <pubDate>Wed, 05 Nov 2014 00:38:27 +0000</pubDate>
+    <lastBuildDate>Wed, 05 Nov 2014 00:38:26 +0000</lastBuildDate>
+    <generator>eZ Components Feed 1.3 (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://www.gendarmerie.interieur.gouv.fr/rss/feed/gendarmerie" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Résultats d'admissibilité des concours interne et externe - SOG session septembre 2014</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Octobre/Resultats-d-admissibilite-des-concours-interne-et-externe-SOG-session-septembre-2014</link>
+      <description>&lt;p&gt;Les résultats d'admissibilité des concours interne et externe sont en ligne&nbsp; - Sous-officier de gendarmerie de septembre 2014 sont en ligne.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/" length="" type=""/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Octobre/Resultats-d-admissibilite-des-concours-interne-et-externe-SOG-session-septembre-2014</guid>
+      <pubDate>Thu, 30 Oct 2014 17:30:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>La Revue n°250 est en ligne !</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Octobre/La-Revue-n-250-est-en-ligne</link>
+      <description>&lt;p&gt;La &lt;i&gt;Revue de la gendarmerie nationale&lt;/i&gt;
+&nbsp;dont le dossier central est consacré aux perspectives judiciaires, est en ligne. Vous pouvez la consulter dès à présent ou la télécharger sur notre site Internet.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/octobre/la-revue-n-250-est-en-ligne/55870-2-fre-FR/La-Revue-n-250-est-en-ligne.png" length="123074" type="image/png"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Octobre/La-Revue-n-250-est-en-ligne</guid>
+      <pubDate>Wed, 22 Oct 2014 09:35:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gend'Info 370 en ligne </title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Octobre/Gend-Info-370-en-ligne</link>
+      <description>&lt;p&gt;Le numéro 370 des mois d'octobre 2014 vient de paraître.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/octobre/gend-info-370-en-ligne/55824-1-fre-FR/Gend-Info-370-en-ligne.jpg" length="141717" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Octobre/Gend-Info-370-en-ligne</guid>
+      <pubDate>Mon, 20 Oct 2014 11:25:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trois personnes sauvées des eaux par les gendarmes dans l'Hérault</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Octobre/Trois-personnes-sauvees-des-eaux-par-les-gendarmes-dans-l-Herault</link>
+      <description>&lt;p&gt;Dans la nuit du 6 au 7 octobre, une femme et ses deux enfants ont été sauvés de la noyade par les gendarmes à Saint-Georges d'Orques (34). Retour sur les faits.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/octobre/trois-personnes-sauvees-des-eaux-par-les-gendarmes-dans-l-herault/55790-1-fre-FR/Trois-personnes-sauvees-des-eaux-par-les-gendarmes-dans-l-Herault.jpg" length="3105128" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Octobre/Trois-personnes-sauvees-des-eaux-par-les-gendarmes-dans-l-Herault</guid>
+      <pubDate>Tue, 07 Oct 2014 12:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Présentation du plan national de lutte contre les vols de véhicules par Bernard Cazeneuve</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Octobre/Presentation-du-plan-national-de-lutte-contre-les-vols-de-vehicules-par-Bernard-Cazeneuve</link>
+      <description>&lt;p&gt;Bernard Cazeneuve, ministre de l'Intérieur, s'est rendu jeudi 2 octobre 2014 à la brigade de gendarmerie de Roye dans la Somme, afin de présenter le plan national de lutte contre les vols de véhicules.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/octobre/presentation-du-plan-national-de-lutte-contre-les-vols-de-vehicules-par-bernard-cazeneuve/55744-1-fre-FR/Presentation-du-plan-national-de-lutte-contre-les-vols-de-vehicules-par-Bernard-Cazeneuve.png" length="238677" type="image/png"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Octobre/Presentation-du-plan-national-de-lutte-contre-les-vols-de-vehicules-par-Bernard-Cazeneuve</guid>
+      <pubDate>Thu, 02 Oct 2014 16:00:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Portes ouvertes de la Garde républicaine</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Portes-ouvertes-de-la-Garde-republicaine</link>
+      <description>&lt;p class=" text-JUSTIFY"&gt;Ce week-end, la Garde républicaine ouvre ses portes au quartier Carnot à Paris (Esplanade Saint-Louis - Métro Château de Vincennes).&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/septembre/portes-ouvertes-de-la-garde-republicaine/55709-1-fre-FR/Portes-ouvertes-de-la-Garde-republicaine.png" length="1225700" type="image/png"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Portes-ouvertes-de-la-Garde-republicaine</guid>
+      <pubDate>Fri, 26 Sep 2014 16:03:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Renfort de la prévention et de la lutte contre la violence dans les stades et à leurs abords</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Renfort-de-la-prevention-et-de-la-lutte-contre-la-violence-dans-les-stades-et-a-leurs-abords</link>
+      <description>&lt;p&gt;Communiqué de presse conjoint du ministère de l'Intérieur et du ministère de la Ville, de la Jeunesse et des Sports.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/septembre/renfort-de-la-prevention-et-de-la-lutte-contre-la-violence-dans-les-stades-et-a-leurs-abords/55686-2-fre-FR/Renfort-de-la-prevention-et-de-la-lutte-contre-la-violence-dans-les-stades-et-a-leurs-abords.jpg" length="12498" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Renfort-de-la-prevention-et-de-la-lutte-contre-la-violence-dans-les-stades-et-a-leurs-abords</guid>
+      <pubDate>Fri, 26 Sep 2014 07:23:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Innovation – La cession du logiciel GENDEXIF, une première pour la gendarmerie</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Innovation-La-cession-du-logiciel-GENDEXIF-une-premiere-pour-la-gendarmerie</link>
+      <description>&lt;p&gt;La gendarmerie propose la cession d'un logiciel de traitement automatisé de photo-localisation pour poursuivre son développement.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/septembre/innovation-la-cession-du-logiciel-gendexif-une-premiere-pour-la-gendarmerie/55663-1-fre-FR/Innovation-La-cession-du-logiciel-GENDEXIF-une-premiere-pour-la-gendarmerie.jpg" length="36290" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Innovation-La-cession-du-logiciel-GENDEXIF-une-premiere-pour-la-gendarmerie</guid>
+      <pubDate>Mon, 22 Sep 2014 15:12:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Journées européennes du patrimoine : par ici !</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Journees-europeennes-du-patrimoine-par-ici</link>
+      <description>&lt;p&gt;Que faites-vous ce week-end&nbsp;? A l'occasion des journées européennes du patrimoine, la gendarmerie ouvre ses portes.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/septembre/journees-europeennes-du-patrimoine-par-ici/55640-1-fre-FR/Journees-europeennes-du-patrimoine-par-ici.jpg" length="3071057" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Journees-europeennes-du-patrimoine-par-ici</guid>
+      <pubDate>Fri, 19 Sep 2014 16:16:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>La gendarmerie veille sur les activités viticoles en Champagne</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/La-gendarmerie-veille-sur-les-activites-viticoles-en-Champagne</link>
+      <description>&lt;p&gt;Chaque année, à l'arrivée des premiers vendangeurs, la région de gendarmerie de Champagne-Ardenne active son «&nbsp;Plan Champagne&nbsp;». Signé en janvier 2012, ce protocole instaure un partenariat opérationnel entre la gendarmerie et les acteurs du monde viticole afin d'améliorer la sécurité économique de cette filière.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/septembre/la-gendarmerie-veille-sur-les-activites-viticoles-en-champagne/55617-1-fre-FR/La-gendarmerie-veille-sur-les-activites-viticoles-en-Champagne.jpg" length="113316" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/La-gendarmerie-veille-sur-les-activites-viticoles-en-Champagne</guid>
+      <pubDate>Thu, 18 Sep 2014 09:58:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gend'Info 369 en ligne</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Gend-Info-369-en-ligne</link>
+      <description>&lt;p class=" text-JUSTIFY"&gt;Le numéro&nbsp;369 des mois de août-septembre 2014 vient de paraître.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/septembre/gend-info-369-en-ligne/55594-1-fre-FR/Gend-Info-369-en-ligne.jpg" length="246703" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Gend-Info-369-en-ligne</guid>
+      <pubDate>Thu, 18 Sep 2014 08:29:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Les réseaux sociaux de la gendarmerie ont dépassé les 200 000 abonnés !</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Les-reseaux-sociaux-de-la-gendarmerie-ont-depasse-les-200-000-abonnes</link>
+      <description>&lt;p class=" text-justify"&gt;A&nbsp;eux deux, la page Facebook (plus de 180 000 J'aime) et le compte Twitter (plus de 30 000 &lt;i&gt;followers&lt;/i&gt;
+) de la gendarmerie nationale ont dépassé les 200 000 abonnés, permettant à l'Institution d'élargir sa visibilité et d'en faire un acteur incontournable du web 3.0.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/septembre/les-reseaux-sociaux-de-la-gendarmerie-ont-depasse-les-200-000-abonnes/55548-1-fre-FR/Les-reseaux-sociaux-de-la-gendarmerie-ont-depasse-les-200-000-abonnes.gif" length="98192" type="image/gif"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Les-reseaux-sociaux-de-la-gendarmerie-ont-depasse-les-200-000-abonnes</guid>
+      <pubDate>Wed, 03 Sep 2014 09:06:16 +0000</pubDate>
+    </item>
+    <item>
+      <title> Mesure de la délinquance : Bernard Cazeneuve met en place un service statistique ministériel de la sécurité intérieure</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Mesure-de-la-delinquance-Bernard-Cazeneuve-met-en-place-un-service-statistique-ministeriel-de-la-securite-interieure</link>
+      <description>&lt;p&gt;Communiqué de presse du ministre de l'Intérieur du lundi 1er septembre 2014.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/septembre/mesure-de-la-delinquance-bernard-cazeneuve-met-en-place-un-service-statistique-ministeriel-de-la-securite-interieure/55525-1-fre-FR/Mesure-de-la-delinquance-Bernard-Cazeneuve-met-en-place-un-service-statistique-ministeriel-de-la-securite-interieure.jpg" length="40573" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Septembre/Mesure-de-la-delinquance-Bernard-Cazeneuve-met-en-place-un-service-statistique-ministeriel-de-la-securite-interieure</guid>
+      <pubDate>Tue, 02 Sep 2014 08:06:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Création de la gendarmerie mexicaine</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Aout/Creation-de-la-gendarmerie-mexicaine</link>
+      <description>&lt;p&gt;Inspirée du modèle de la gendarmerie nationale française, la gendarmerie mexicaine constitue désormais la 51ème force de sécurité de type gendarmerie dans le monde.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/aout/creation-de-la-gendarmerie-mexicaine/55485-1-fre-FR/Creation-de-la-gendarmerie-mexicaine.png" length="393129" type="image/png"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Aout/Creation-de-la-gendarmerie-mexicaine</guid>
+      <pubDate>Tue, 26 Aug 2014 09:44:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accidentalité du mois de juillet 2014 : baisse de la mortalité routière et du nombre de personnes hospitalisées</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Aout/Accidentalite-du-mois-de-juillet-2014-baisse-de-la-mortalite-routiere-et-du-nombre-de-personnes-hospitalisees</link>
+      <description>&lt;p class=" text-justify"&gt;&nbsp;Après quatre mois de hausse consécutifs, l'accidentalité diminue pour le mois de juillet 2014 avec une baisse de -11,6&nbsp;% de la mortalité routière.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/aout/accidentalite-du-mois-de-juillet-2014-baisse-de-la-mortalite-routiere-et-du-nombre-de-personnes-hospitalisees/55458-1-fre-FR/Accidentalite-du-mois-de-juillet-2014-baisse-de-la-mortalite-routiere-et-du-nombre-de-personnes-hospitalisees.jpg" length="70609" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Aout/Accidentalite-du-mois-de-juillet-2014-baisse-de-la-mortalite-routiere-et-du-nombre-de-personnes-hospitalisees</guid>
+      <pubDate>Tue, 19 Aug 2014 12:42:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gend'Info 368 en ligne </title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Juillet/Gend-Info-368-en-ligne</link>
+      <description>&lt;p&gt;Le numéro 368 des mois de juin-juillet 2014 vient de paraître.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/juillet/gend-info-368-en-ligne/55377-1-fre-FR/Gend-Info-368-en-ligne.jpg" length="29452" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Juillet/Gend-Info-368-en-ligne</guid>
+      <pubDate>Wed, 16 Jul 2014 10:16:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accidentalité juin 2014, nouvelle hausse de la mortalité routière (+3,8 %) et des blessés hospitalisés (+5,4 %) </title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Juillet/Accidentalite-juin-2014-nouvelle-hausse-de-la-mortalite-routiere-3-8-et-des-blesses-hospitalises-5-4</link>
+      <description>&lt;p&gt;Avec 304 tués en juin 2014, comparé à 293 en juin 2013, soit + 11 personnes, l’Observatoire national interministériel de la sécurité routière (ONISR) enregistre une augmentation de la mortalité routière de 3,8 %.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/juillet/accidentalite-juin-2014-nouvelle-hausse-de-la-mortalite-routiere-3-8-et-des-blesses-hospitalises-5-4/55354-1-fre-FR/Accidentalite-juin-2014-nouvelle-hausse-de-la-mortalite-routiere-3-8-et-des-blesses-hospitalises-5-4.gif" length="98874" type="image/gif"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Juillet/Accidentalite-juin-2014-nouvelle-hausse-de-la-mortalite-routiere-3-8-et-des-blesses-hospitalises-5-4</guid>
+      <pubDate>Tue, 15 Jul 2014 15:28:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>14 juillet, la gendarmerie présente aux Invalides</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Juillet/14-juillet-la-gendarmerie-presente-aux-Invalides</link>
+      <description>&lt;p class=" text-justify"&gt;Lundi 14 juillet 2014, dans le cadre de l'opération «&nbsp;Les Franciliens accueillent leurs soldats&nbsp;», la gendarmerie animera un stand sur l'esplanade des Invalides de 14h à 19h aux côtés des autres armées présentes lors du défilé. Venez nombreux&nbsp;!&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/juillet/14-juillet-la-gendarmerie-presente-aux-invalides/55331-1-fre-FR/14-juillet-la-gendarmerie-presente-aux-Invalides.jpg" length="96125" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Juillet/14-juillet-la-gendarmerie-presente-aux-Invalides</guid>
+      <pubDate>Fri, 11 Jul 2014 16:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Résultats d'admission en Classe préparatoire intégrée 2014</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Juillet/Resultats-d-admission-en-Classe-preparatoire-integree-2014</link>
+      <description>&lt;p&gt;Les résultats des admissions pour intégrer la classe préparatoire intégrée de la gendarmerie sont en ligne.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/juillet/resultats-d-admission-en-classe-preparatoire-integree-2014/55308-1-fre-FR/Resultats-d-admission-en-Classe-preparatoire-integree-2014.gif" length="61009" type="image/gif"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Juillet/Resultats-d-admission-en-Classe-preparatoire-integree-2014</guid>
+      <pubDate>Fri, 11 Jul 2014 13:49:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Résultats d'admission du concours interne - SOG  session mars 2014</title>
+      <link>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Juillet/Resultats-d-admission-du-concours-interne-SOG-session-mars-2014</link>
+      <description>&lt;p&gt;Les résultats d'admission du concours interne - Sous-officier de gendarmerie de mars 2014 sont en ligne.&lt;/p&gt;</description>
+      <author>webmaster@gendarmerie.interieur.gouv.fr (Administrator User)</author>
+      <enclosure url="http://www.gendarmerie.interieur.gouv.fr/var/ezwebin_site/storage/images/sites/gendarmerie/actualites/2014/juillet/resultats-d-admission-du-concours-interne-sog-session-mars-2014/55285-1-fre-FR/Resultats-d-admission-du-concours-interne-SOG-session-mars-2014.jpg" length="51936" type="image/jpeg"/>
+      <guid>http://www.gendarmerie.interieur.gouv.fr/Sites/Gendarmerie/Actualites/2014/Juillet/Resultats-d-admission-du-concours-interne-SOG-session-mars-2014</guid>
+      <pubDate>Fri, 11 Jul 2014 08:55:14 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ChupaChupa-Entities"
+                   namespace="ChupaChupa.Entities">
+
+  <class name="Category" table="CATEGORY">
+    <id name="IdEntity" column="IDCATEGORY" unsaved-value="0">
+      <generator class="native" />
+    </id>
+
+    <property name="Name" column="NAME"/>
+        
+    <bag name="RssChannels" table="CATEGORYRSSCHANNEL" cascade="save-update">
+      <key column="IDCATEGORY"/>
+      <many-to-many class="RssChannel" column="IDRSSCHANNEL"/>
+    </bag>
+
+    <many-to-one name="User" class="User" >
+      <column name="IDUSER" not-null="true" />
+    </many-to-one>
+    
+  </class>
+
+</hibernate-mapping>

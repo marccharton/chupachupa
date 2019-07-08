@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ChupaChupa-Entities"
+                   namespace="ChupaChupa.Entities">
+
+  <class name="TextInput" table="TEXTINPUT">
+    <id name="IdEntity" column="IDTEXTINPUT" unsaved-value="0">
+      <generator class="native" />
+    </id>
+
+    <property name="Title" column="TITLE"/>
+    <property name="Description" column="DESCRIPTION"/>
+    <property name="Name" column="NAME"/>
+    <property name="Link" column="LINK"/>
+  </class>
+
+</hibernate-mapping>

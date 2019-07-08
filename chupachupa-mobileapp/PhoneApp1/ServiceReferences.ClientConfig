@@ -1,0 +1,24 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <customBinding>
+                <binding name="WSHttpBinding_IPublicServiceContract">
+                    <textMessageEncoding messageVersion="Default" writeEncoding="utf-8" />
+                    <httpsTransport maxReceivedMessageSize="2147483647" maxBufferSize="2147483647" />
+                </binding>
+                <binding name="WSHttpBinding_IServiceContract">
+                  <textMessageEncoding messageVersion="Default" writeEncoding="utf-8" />
+                  <httpsTransport maxReceivedMessageSize="2147483647" maxBufferSize="2147483647" />
+                </binding>
+            </customBinding>
+        </bindings>
+        <client>
+            <endpoint address="https://chupachupa47.cloudapp.net/servicecontractimpl/PublicServiceContractImpl.svc"
+                binding="customBinding" bindingConfiguration="WSHttpBinding_IPublicServiceContract"
+                contract="PublicService.IPublicServiceContract" name="WSHttpBinding_IPublicServiceContract" />
+            <endpoint address="https://chupachupa47.cloudapp.net/servicecontractimpl/ServiceContractImpl.svc"
+                binding="customBinding" bindingConfiguration="WSHttpBinding_IServiceContract"
+                contract="PrivateService.IServiceContract" name="WSHttpBinding_IServiceContract" />
+        </client>
+    </system.serviceModel>
+</configuration>

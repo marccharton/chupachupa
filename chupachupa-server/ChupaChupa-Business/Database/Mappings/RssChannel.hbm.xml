@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ChupaChupa-Entities"
+                   namespace="ChupaChupa.Entities">
+
+  <class name="RssChannel" table="RSSCHANNEL">
+    <id name="IdEntity" column="IDRSSCHANNEL" unsaved-value="0">
+      <generator class="native" />
+    </id>
+
+    <property name="RssLink" column="RSSLINK"/>
+    <property name="Title" column="TITLE"/>
+    <property name="Link" column="LINK"/>
+    <property name="Description" column="DESCRIPTION"/>
+    <property name="Language" column="LANGUAGE"/>
+    <property name="Copyright" column="COPYRIGHT"/>
+    <property name="ManagingEditor" column="MANAGINGEDITOR"/>
+    <property name="WebMaster" column="WEBMASTER"/>
+    <property name="PubDate" column="PUBDATE"/>
+    <property name="LastBuildDate" column="LASTBUILDDATE"/>
+    <property name="Generator" column="GENERATOR"/>
+    <property name="Docs" column="DOCS"/>
+    <property name="Ttl" column="TTL"/>
+    <property name="Rating" column="RATING"/>
+    
+    <many-to-one name="Image" unique="true" column="IDIMAGE" cascade="all"/>
+    <many-to-one name="TextInput" unique="true" column="IDTEXTINPUT" cascade="all"/>
+    <many-to-one name="Cloud" unique="true" column="IDCLOUD" cascade="all"/>
+
+    <bag name="RssCategory" table="RSSCHANNELRSSCATEGORY" cascade="save-update">
+      <key column="IDRSSCHANNEL"/>
+      <many-to-many class="RssCategory" column="IDRSSCATEGORY"/>
+    </bag>
+
+    <bag name="RssItems" table="RSSITEM" lazy="false" cascade="all-delete-orphan">
+      <key column="IDRSSCHANNEL" not-null="false"/>
+      <one-to-many class="RssItem"/>
+    </bag>
+    
+    <bag name="SkipDays" table="RSSCHANNELSKIPDAYS" cascade="save-update">
+      <key column="IDRSSCHANNEL"/>
+      <many-to-many class="SkipDays" column="IDSKIPDAYS"/>
+    </bag>
+
+    <bag name="SkipHours" table="RSSCHANNELSKIPHOURS" cascade="save-update">
+      <key column="IDRSSCHANNEL"/>
+      <many-to-many class="SkipHours" column="IDSKIPHOURS"/>
+    </bag>
+        
+  </class>
+
+</hibernate-mapping>
+

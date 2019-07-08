@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "SuppCategorie";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<nav class="breadcrumbs" style="margin-top: 20px">
+    <ul>
+        <li><a href="/Home/Index">Chupa</a></li>
+    </ul>
+</nav>
+<fieldset>
+    <p id="boxUserName">Bonjour @ViewBag.userName, voulez-vous vous @Html.ActionLink(" déconnecter ?", "Logout")</p>
+</fieldset>
+<div class="tile-group" style="width: 100%">
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            <legend>SUPPRESSION DE LA CATEGORIE : @ViewBag.category.Name</legend>
+            <label>Voulez-vous supprimer la categorie ?</label>
+            <input type="submit" value="Continuer" name="delete">
+            <div style="margin-top: 20px">
+            </div>
+        </fieldset>
+    }
+</div>

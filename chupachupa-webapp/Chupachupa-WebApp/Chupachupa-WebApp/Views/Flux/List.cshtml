@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<nav class="breadcrumbs" style="margin-top: 20px">
+    <ul>
+        <li><a href="/Home/Index">Chupa</a></li>
+        <li class="active">@Html.ActionLink("Liste des flux", "List", new { catId = @ViewBag.catId})</li>
+    </ul>
+</nav>
+<fieldset>
+    <p id="boxUserName">Bonjour @ViewBag.userName, voulez-vous vous @Html.ActionLink(" déconnecter ?", "Logout")</p>
+</fieldset>
+
+<h2>@ViewBag.catName</h2>
+
+<div class="tile-group" style="width: 100%">
+    @foreach (var channel in ViewBag.channelList)
+    {
+        <h2 style="float:left;">@Html.ActionLink((string)@channel.Title, "List", new { controller = "Article", channelId = @channel.IdEntity, catId = @ViewBag.catId})</h2>
+        @Html.ActionLink(" ", "Edit", new { catId = @ViewBag.catId, channelId = @channel.IdEntity }, new { id = "_LogoEdit" })
+        @Html.ActionLink(" ", "Delete", new { catId = @ViewBag.catId, channelId = @channel.IdEntity }, new { id = "_LogoDelete" })
+        <div class="clearfix"></div>
+    }
+</div>

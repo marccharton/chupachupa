@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F4FE27F-7D8B-46CC-AAF3-8B7C2D24A05E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chupachupa_WebApp</RootNamespace>
+    <AssemblyName>Chupachupa-WebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\iconFont.css" />
+    <Content Include="Content\css\metro-bootstrap-responsive.css" />
+    <Content Include="Content\css\metro-bootstrap.css" />
+    <Content Include="Content\data\dataTables-objects.txt" />
+    <Content Include="Content\fonts\iconFont.dev.svg" />
+    <Content Include="Content\fonts\iconFont.svg" />
+    <Content Include="Content\fonts\metroSysIcons.svg" />
+    <Content Include="Content\images\20min.jpg" />
+    <Content Include="Content\images\can.jpg" />
+    <Content Include="Content\images\delete.png" />
+    <Content Include="Content\images\edit.png" />
+    <Content Include="Content\images\eurosport.jpg" />
+    <Content Include="Content\images\figaro.jpg" />
+    <Content Include="Content\images\headLogo.png" />
+    <Content Include="Content\images\inconnu.png" />
+    <Content Include="Content\images\korben.jpg" />
+    <Content Include="Content\images\lemonde.png" />
+    <Content Include="Content\images\lequipe.jpg" />
+    <Content Include="Content\images\ljdg.jpg" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\logomin.png" />
+    <Content Include="Content\images\OL.jpg" />
+    <Content Include="Content\images\poutine.jpg" />
+    <Content Include="Content\images\poutineArticle.jpg" />
+    <Content Include="Content\images\rmc.jpg" />
+    <Content Include="Content\js\docs.js" />
+    <Content Include="Content\js\github.info.js" />
+    <Content Include="Content\js\hitua.js" />
+    <Content Include="Content\js\holder\holder.js" />
+    <Content Include="Content\js\jquery\jquery.dataTables.js" />
+    <Content Include="Content\js\jquery\jquery.easing.1.3.min.js" />
+    <Content Include="Content\js\jquery\jquery.min.js" />
+    <Content Include="Content\js\jquery\jquery.mousewheel.js" />
+    <Content Include="Content\js\jquery\jquery.widget.min.js" />
+    <Content Include="Content\js\load-metro.js" />
+    <Content Include="Content\js\metro.min.js" />
+    <Content Include="Content\js\metro\metro-accordion.js" />
+    <Content Include="Content\js\metro\metro-button-set.js" />
+    <Content Include="Content\js\metro\metro-calendar.js" />
+    <Content Include="Content\js\metro\metro-carousel.js" />
+    <Content Include="Content\js\metro\metro-core.js" />
+    <Content Include="Content\js\metro\metro-countdown.js" />
+    <Content Include="Content\js\metro\metro-date-format.js" />
+    <Content Include="Content\js\metro\metro-datepicker.js" />
+    <Content Include="Content\js\metro\metro-dialog.js" />
+    <Content Include="Content\js\metro\metro-drag-tile.js" />
+    <Content Include="Content\js\metro\metro-dropdown.js" />
+    <Content Include="Content\js\metro\metro-fluentmenu.js" />
+    <Content Include="Content\js\metro\metro-global.js" />
+    <Content Include="Content\js\metro\metro-hint.js" />
+    <Content Include="Content\js\metro\metro-initiator.js" />
+    <Content Include="Content\js\metro\metro-input-control.js" />
+    <Content Include="Content\js\metro\metro-listview.js" />
+    <Content Include="Content\js\metro\metro-live-tile.js" />
+    <Content Include="Content\js\metro\metro-loader.js" />
+    <Content Include="Content\js\metro\metro-locale.js" />
+    <Content Include="Content\js\metro\metro-notify.js" />
+    <Content Include="Content\js\metro\metro-panel.js" />
+    <Content Include="Content\js\metro\metro-plugin-template.js" />
+    <Content Include="Content\js\metro\metro-progressbar.js" />
+    <Content Include="Content\js\metro\metro-pull.js" />
+    <Content Include="Content\js\metro\metro-rating.js" />
+    <Content Include="Content\js\metro\metro-scroll.js" />
+    <Content Include="Content\js\metro\metro-slider.js" />
+    <Content Include="Content\js\metro\metro-stepper.js" />
+    <Content Include="Content\js\metro\metro-streamer.js" />
+    <Content Include="Content\js\metro\metro-tab-control.js" />
+    <Content Include="Content\js\metro\metro-table.js" />
+    <Content Include="Content\js\metro\metro-tile-transform.js" />
+    <Content Include="Content\js\metro\metro-times.js" />
+    <Content Include="Content\js\metro\metro-touch-handler.js" />
+    <Content Include="Content\js\metro\metro-treeview.js" />
+    <Content Include="Content\js\metro\metro-wizard.js" />
+    <Content Include="Content\js\prettify\lang-apollo.js" />
+    <Content Include="Content\js\prettify\lang-basic.js" />
+    <Content Include="Content\js\prettify\lang-clj.js" />
+    <Content Include="Content\js\prettify\lang-css.js" />
+    <Content Include="Content\js\prettify\lang-dart.js" />
+    <Content Include="Content\js\prettify\lang-erlang.js" />
+    <Content Include="Content\js\prettify\lang-go.js" />
+    <Content Include="Content\js\prettify\lang-hs.js" />
+    <Content Include="Content\js\prettify\lang-lisp.js" />
+    <Content Include="Content\js\prettify\lang-llvm.js" />
+    <Content Include="Content\js\prettify\lang-lua.js" />
+    <Content Include="Content\js\prettify\lang-matlab.js" />
+    <Content Include="Content\js\prettify\lang-ml.js" />
+    <Content Include="Content\js\prettify\lang-mumps.js" />
+    <Content Include="Content\js\prettify\lang-n.js" />
+    <Content Include="Content\js\prettify\lang-pascal.js" />
+    <Content Include="Content\js\prettify\lang-proto.js" />
+    <Content Include="Content\js\prettify\lang-r.js" />
+    <Content Include="Content\js\prettify\lang-rd.js" />
+    <Content Include="Content\js\prettify\lang-scala.js" />
+    <Content Include="Content\js\prettify\lang-sql.js" />
+    <Content Include="Content\js\prettify\lang-tcl.js" />
+    <Content Include="Content\js\prettify\lang-tex.js" />
+    <Content Include="Content\js\prettify\lang-vb.js" />
+    <Content Include="Content\js\prettify\lang-vhdl.js" />
+    <Content Include="Content\js\prettify\lang-wiki.js" />
+    <Content Include="Content\js\prettify\lang-xq.js" />
+    <Content Include="Content\js\prettify\lang-yaml.js" />
+    <Content Include="Content\js\prettify\prettify.css" />
+    <Content Include="Content\js\prettify\prettify.js" />
+    <Content Include="Content\js\prettify\run_prettify.js" />
+    <Content Include="Content\js\start-screen.js" />
+    <Content Include="Content\min\iconFont.min.css" />
+    <Content Include="Content\min\metro-bootstrap-responsive.min.css" />
+    <Content Include="Content\min\metro-bootstrap.min.css" />
+    <Content Include="Content\min\metro.min.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Service References\PrivateService\Chupachupa_WebApp.PrivateService.Category.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\PrivateService\Chupachupa_WebApp.PrivateService.RssChannel.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\PrivateService\Chupachupa_WebApp.PrivateService.RssItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\PrivateService\configuration91.svcinfo" />
+    <None Include="Service References\PrivateService\configuration.svcinfo" />
+    <None Include="Service References\PrivateService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\PublicService\configuration91.svcinfo" />
+    <None Include="Service References\PublicService\configuration.svcinfo" />
+    <None Include="Service References\PublicService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Web.config" />
+    <None Include="Service References\PublicService\service.wsdl" />
+    <None Include="Service References\PublicService\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PublicService\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ArticleController.cs" />
+    <Compile Include="Controllers\FluxController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\monObjet.cs" />
+    <Compile Include="Models\ServeurSingleton.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\PrivateService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\PublicService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Content\fonts\iconFont.eot" />
+    <Content Include="Content\fonts\iconFont.json" />
+    <Content Include="Content\fonts\iconFont.ttf" />
+    <Content Include="Content\fonts\iconFont.woff" />
+    <Content Include="Content\fonts\metroSysIcons.ttf" />
+    <Content Include="Content\fonts\metroSysIcons.woff" />
+    <Content Include="Content\fonts\OpenSans-Bold.woff" />
+    <Content Include="Content\fonts\OpenSans-Light.woff" />
+    <Content Include="Content\fonts\OpenSans.woff" />
+    <Content Include="Content\fonts\PTSerif-Caption.woff" />
+    <Content Include="Content\js\metro\README.md" />
+    <Content Include="Content\less\accordion.less" />
+    <Content Include="Content\less\balloon.less" />
+    <Content Include="Content\less\breadcrumbs.less" />
+    <Content Include="Content\less\buttons.less" />
+    <Content Include="Content\less\calendar.less" />
+    <Content Include="Content\less\carousel.less" />
+    <Content Include="Content\less\colors.less" />
+    <Content Include="Content\less\countdown.less" />
+    <Content Include="Content\less\dataTables.less" />
+    <Content Include="Content\less\fluent-menu.less" />
+    <Content Include="Content\less\forms.less" />
+    <Content Include="Content\less\funcs.less" />
+    <Content Include="Content\less\grid.less" />
+    <Content Include="Content\less\hint.less" />
+    <Content Include="Content\less\iconFont-content.less" />
+    <Content Include="Content\less\iconFont.less" />
+    <Content Include="Content\less\icons.less" />
+    <Content Include="Content\less\images.less" />
+    <Content Include="Content\less\layout.less" />
+    <Content Include="Content\less\lists.less" />
+    <Content Include="Content\less\menus.less" />
+    <Content Include="Content\less\metro-bootstrap-responsive.less" />
+    <Content Include="Content\less\metro-bootstrap.less" />
+    <Content Include="Content\less\misc.less" />
+    <Content Include="Content\less\navigation-bar.less" />
+    <Content Include="Content\less\notice.less" />
+    <Content Include="Content\less\notify.less" />
+    <Content Include="Content\less\pagination.less" />
+    <Content Include="Content\less\panels.less" />
+    <Content Include="Content\less\progress-bar.less" />
+    <Content Include="Content\less\rating.less" />
+    <Content Include="Content\less\reset.less" />
+    <Content Include="Content\less\scroll.less" />
+    <Content Include="Content\less\sidebar.less" />
+    <Content Include="Content\less\slider.less" />
+    <Content Include="Content\less\stepper.less" />
+    <Content Include="Content\less\streamer.less" />
+    <Content Include="Content\less\tab-control.less" />
+    <Content Include="Content\less\tables.less" />
+    <Content Include="Content\less\tiles.less" />
+    <Content Include="Content\less\transform.less" />
+    <Content Include="Content\less\treeview.less" />
+    <Content Include="Content\less\typography.less" />
+    <Content Include="Content\less\utils.less" />
+    <Content Include="Content\less\variables.less" />
+    <Content Include="Content\less\window.less" />
+    <Content Include="Content\less\wizard.less" />
+    <None Include="Properties\PublishProfiles\Chupachupa-WebApp.pubxml" />
+    <Content Include="Views\Article\AfficherArticle.cshtml" />
+    <Content Include="Views\Article\ListArticle.cshtml" />
+    <Content Include="Views\Flux\AddFlux.cshtml" />
+    <Content Include="Views\Flux\DeleteFlux.cshtml" />
+    <Content Include="Views\Flux\EditFlux.cshtml" />
+    <Content Include="Views\Flux\List.cshtml" />
+    <Content Include="Views\Home\AjoutCategorie.cshtml" />
+    <Content Include="Views\Home\Article.cshtml" />
+    <Content Include="Views\Home\EditCategorie.cshtml" />
+    <Content Include="Views\Home\Homepage.cshtml" />
+    <Content Include="Views\Home\SuppCategorie.cshtml" />
+    <Content Include="Views\Login\Create.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Service References\PrivateService\ChupaChupa.Service.Message.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PrivateService\service.wsdl" />
+    <None Include="Service References\PrivateService\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PrivateService\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\PrivateService\" />
+    <WCFMetadataStorage Include="Service References\PublicService\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62614</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:62614/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

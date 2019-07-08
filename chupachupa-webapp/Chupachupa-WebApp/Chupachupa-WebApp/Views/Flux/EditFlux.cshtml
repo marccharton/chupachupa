@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "EditFlux";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<nav class="breadcrumbs" style="margin-top: 20px">
+    <ul>
+        <li><a href="/Home/Index">Chupa</a></li>
+        <li class="active">@Html.ActionLink("Liste des flux", "List", new { catId = @ViewBag.catId })</li>
+    </ul>
+</nav>
+<fieldset>
+    <p id="boxUserName">Bonjour @ViewBag.userName, voulez-vous vous @Html.ActionLink(" déconnecter ?", "Logout")</p>
+</fieldset>
+<div class="tile-group" style="width: 100%">
+    
+        <fieldset>
+            <legend>MODIFICATION DE FLUX</legend>
+            <span>@ViewBag.channel.Title, choisissez sa nouvelle catégorie</span>
+            <div class="clearfix" style="margin-top:20px;"></div>
+            @foreach (var category in ViewBag.category)
+            {
+                @Html.ActionLink((string)category.Name, "SwitchCategory", new { oldCatId = @ViewBag.catId, newCatId = category.IdEntity, channelId = @ViewBag.channelId })
+                <div class="clearfix" style="margin-top:10px;"></div>
+            }
+        </fieldset>
+</div>

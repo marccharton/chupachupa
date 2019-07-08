@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Homepage";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<nav class="breadcrumbs" style="margin-top: 20px">
+    <ul>
+        <li><a href="/Home/Index">Chupa</a></li>
+    </ul>
+</nav>
+<fieldset>
+    <p id="boxUserName">Bonjour @ViewBag.userName, voulez-vous vous @Html.ActionLink(" déconnecter ?", "Logout")</p>
+</fieldset>
+
+<div class="tile-group" style="width: 100%; padding-top:0px;">
+        @{
+            foreach (var category in ViewBag.category)
+            {
+                <div class="tile-group no-margin no-padding1 clearfix" style="width: 100%;">
+                    <h2 style="float:left;">@Html.ActionLink((string)category.Name, "List", new { controller = "Flux", catId = category.IdEntity })</h2>
+                    @Html.ActionLink(" ", "Edition", new { id = category.IdEntity }, new { id = "_LogoEdit" })
+                    @Html.ActionLink(" ", "Suppression", new { id = category.IdEntity }, new { id = "_LogoDelete" })
+                    <div class="clearfix"></div>
+                </div>
+            }
+        }
+</div>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="78679961-0fb8-42c7-8ad5-99e7f3ca1731" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://chupachupa47.cloudapp.net/servicecontractimpl/servicecontractimpl.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="422c4899-6332-4c49-90c3-c7afa062107e" SourceId="1" SourceUrl="https://chupachupa47.cloudapp.net/servicecontractimpl/servicecontractimpl.svc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="54298bd9-188a-4cd9-8309-72946cf7c077" SourceId="1" SourceUrl="https://chupachupa47.cloudapp.net/servicecontractimpl/servicecontractimpl.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="5f007140-b6fc-4796-a8fa-154a37cda10e" SourceId="1" SourceUrl="https://chupachupa47.cloudapp.net/servicecontractimpl/servicecontractimpl.svc/mex" />
+    <MetadataFile FileName="ChupaChupa.Service.Message.xsd" MetadataType="Schema" ID="14462a39-d3aa-4619-ba37-5e903f983596" SourceId="1" SourceUrl="https://chupachupa47.cloudapp.net/servicecontractimpl/servicecontractimpl.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

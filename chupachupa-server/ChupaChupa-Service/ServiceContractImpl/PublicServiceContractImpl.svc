@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ChupaChupa.Service.ServiceContractImpl.PublicServiceContractImpl" CodeBehind="PublicServiceContractImpl.svc.cs" %>

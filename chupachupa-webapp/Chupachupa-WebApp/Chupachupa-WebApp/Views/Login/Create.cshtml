@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+@if (ViewBag.error != "OK")
+{
+    <p style="margin-top: 10px; color: #EF803E;">@ViewBag.error</p>
+}
+@using (Html.BeginForm())
+{
+    <fieldset style="width:30%; margin-top: 30px;">
+        <legend>INSCRIPTION</legend>
+        <label>Entrez un nom d'utilisateur</label>
+        <div class="input-control text" data-role="input-control">
+            <input type="text" placeholder="Votre nom d'utilisateur" autofocus name="name">
+        </div>
+        <label>Entrez votre mot de passe</label>
+        <div class="input-control password" data-role="input-control">
+            <input type="password" placeholder="Votre mot de passe" name="pass">
+        </div>
+        <div style="margin-top: 20px">
+            <input type="submit" value="Inscription">
+        </div>
+    </fieldset>
+}

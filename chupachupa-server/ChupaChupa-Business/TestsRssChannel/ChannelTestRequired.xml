@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>This a title test</title>
+		<link>http://www.fakeurl.petitpoids.lol</link>
+		<description>This a test for the description This a test for the description This a test for the description This a test for the description This a test for the description This a test for the description This a test for the description This a test for the description This a test for the description This a test for the description This a test for the description</description>
+	</channel>
+</rss>

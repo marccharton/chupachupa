@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<nav class="breadcrumbs" style="margin-top: 20px">
+    <ul>
+        <li><a href="/Home/Index">Chupa</a></li>
+        <li>@Html.ActionLink("Liste des flux", "List", new { controller = "Flux", catId = @ViewBag.catId })</li>
+        <li class="active">@Html.ActionLink("Liste des articles", "List", new { channelId = @ViewBag.channelId, catId = @ViewBag.catId })</li>
+    </ul>
+</nav>
+<fieldset>
+    <p id="boxUserName">Bonjour @ViewBag.userName, voulez-vous vous @Html.ActionLink(" déconnecter ?", "Logout")</p>
+</fieldset>
+<div class="tile-group" style="width: 100%">
+    <h2 style="float:left;">@ViewBag.channel.Title</h2>
+    @Html.ActionLink(" ", "Edit", new { controller = "Flux", channelId = ViewBag.channelId, catId = ViewBag.catId }, new { id = "_LogoEdit" })
+    @Html.ActionLink(" ", "Delete", new { controller = "Flux", channelId = ViewBag.channelId, catId = ViewBag.catId }, new { id = "_LogoDelete" })
+    <div class="clearfix"></div>
+    <div style="margin-top:10px;"></div>
+    @foreach (var item in ViewBag.itemList)
+    {
+        if (item.IsRead == false)
+        {
+            <div class="tile double">
+                <div class="tile-content image">
+                    <img src="~/Content/images/headLogo.png">
+                </div>
+                <div class="brand bg-dark opacity">
+                    <span class="text">
+                        @Html.ActionLink((string)item.Title, "Afficher", new { itemId = item.IdEntity, channelId = ViewBag.channelId, catId = ViewBag.catId }, new { id = "_ArticleTitle" })
+                    </span>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="tile double selected">
+                <div class="tile-content image">
+                    <img src="~/Content/images/headLogo.png">
+                </div>
+                <div class="brand bg-dark opacity">
+                    <span class="text">
+                        @Html.ActionLink((string)item.Title, "Afficher", new { itemId = item.IdEntity, channelId = ViewBag.channelId, catId = ViewBag.catId }, new { id = "_ArticleTitle" })
+                    </span>
+                </div>
+            </div>
+        }
+    }
+</div>

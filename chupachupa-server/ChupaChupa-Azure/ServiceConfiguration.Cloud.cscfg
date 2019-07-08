@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ChupaChupa_Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="ChupaChupa-Service">
+    <Instances count="1" />
+    <ConfigurationSettings />
+    <Certificates>
+      <Certificate name="ChupaChupaCertificate" thumbprint="647CE6692A0069E77075BBDBFE5B1B8E7BAB103C" thumbprintAlgorithm="sha1" />
+      <Certificate name="Authority" thumbprint="673FC22871866F0F6924D0B48C373D2EF1AC62AD" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B545DC98-1664-4AEE-9B45-A76C1898D71A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChupaChupa.Business.Test</RootNamespace>
+    <AssemblyName>ChupaChupa-Business-Test</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\ChupaChupa-Server\libs\NHibernate-3.3.3\Required_Bins\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.2.1409.1722\lib\net40\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\ChupaChupa-Server\libs\NHibernate-3.3.3\Required_Bins\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\ChupaChupa-Server\libs\NUnit 2.6.2\bin\framework\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\CloudControllerTest.cs" />
+    <Compile Include="Controller\ControllerProperty\FakeObject.cs" />
+    <Compile Include="Controller\ControllerProperty\FakeObjectController.cs" />
+    <Compile Include="Controller\ControllerProperty\IntPropertyControllerTest.cs" />
+    <Compile Include="Controller\ControllerProperty\ListPropertyControllerTest.cs" />
+    <Compile Include="Controller\ControllerProperty\ObjectPropertyControllerTest.cs" />
+    <Compile Include="Controller\ControllerProperty\StringPropertyControllerTest.cs" />
+    <Compile Include="Controller\EnclosureControllerTest.cs" />
+    <Compile Include="Controller\ImageControllerTest.cs" />
+    <Compile Include="Controller\RssCategoryControllerTest.cs" />
+    <Compile Include="Controller\RssChannelControllerTest.cs" />
+    <Compile Include="Controller\RssItemControllerTest.cs" />
+    <Compile Include="Controller\SkipDaysControllerTest.cs" />
+    <Compile Include="Controller\SkipHoursControllerTest.cs" />
+    <Compile Include="Controller\SourceControllerTest.cs" />
+    <Compile Include="Controller\TextInputControllerTest.cs" />
+    <Compile Include="Database\DAO\DAOMockTest.cs" />
+    <Compile Include="Database\DAO\IDAOTest.cs" />
+    <Compile Include="Database\Entities\CategoryTest.cs" />
+    <Compile Include="Database\Entities\CloudTest.cs" />
+    <Compile Include="Database\Entities\EnclosureTest.cs" />
+    <Compile Include="Database\Entities\ImageTest.cs" />
+    <Compile Include="Database\Entities\RssCategoryTest.cs" />
+    <Compile Include="Database\Entities\RssChannelTest.cs" />
+    <Compile Include="Database\Entities\RssItemTest.cs" />
+    <Compile Include="Database\Entities\SkipDaysTest.cs" />
+    <Compile Include="Database\Entities\SkipHoursTest.cs" />
+    <Compile Include="Database\Entities\SourceTest.cs" />
+    <Compile Include="Database\Entities\TextInputTest.cs" />
+    <Compile Include="Database\Entities\UserTest.cs" />
+    <Compile Include="Database\DAO\CategoryDAOTest.cs" />
+    <Compile Include="Database\DAO\RssChannelDAOTest.cs" />
+    <Compile Include="Database\DAO\RssItemDAOTest.cs" />
+    <Compile Include="Database\DAO\UserDAOTest.cs" />
+    <Compile Include="Database\Session\NHibernateSessionTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RSS\Parser\" />
+    <Folder Include="RSS\Scheduler\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChupaChupa-Entities\ChupaChupa-Entities.csproj">
+      <Project>{99ae7772-183d-4b79-bc82-f702e4a193ee}</Project>
+      <Name>ChupaChupa-Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChupaChupa-Business\ChupaChupa-Business.csproj">
+      <Project>{768ca667-e30b-414d-90ac-987be8d41676}</Project>
+      <Name>ChupaChupa-Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

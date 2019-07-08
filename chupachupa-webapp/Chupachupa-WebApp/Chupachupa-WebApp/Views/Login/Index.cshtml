@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    <fieldset style="width:30%; margin-top: 30px;">
+        <legend>AUTHENTIFICATION</legend>
+        <label>Entrez votre nom</label>
+        <div class="input-control text" data-role="input-control">
+            <input type="text" placeholder="Votre nom d'utilisateur" autofocus name="name">
+        </div>
+        <label>Entrez votre mot de passe</label>
+        <div class="input-control password" data-role="input-control">
+            <input type="password" placeholder="Votre mot de passe" name="pass">
+        </div>
+        <div style="margin-top: 20px">
+        <input type="submit" value="Login">
+        </div>
+    </fieldset>
+    <br />
+    @Html.ActionLink("Créer un compte", "Create")
+}

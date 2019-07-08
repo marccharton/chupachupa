@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "AjoutCategorie";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<nav class="breadcrumbs" style="margin-top: 20px">
+    <ul>
+        <li><a href="/Home/Index">Chupa</a></li>
+    </ul>
+</nav>
+<fieldset>
+    <p id="boxUserName">Bonjour @ViewBag.userName, voulez-vous vous @Html.ActionLink(" déconnecter ?", "Logout")</p>
+</fieldset>
+<div class="tile-group" style="width: 100%">
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            <legend>NOUVELLE CATEGORIE</legend>
+            <label>Nom de la categorie</label>
+            <div class="input-control text" data-role="input-control">
+                <input type="text" placeholder="Entrez un nom de categorie" name="name">
+            </div>
+            <input type="submit" value="Validez">
+            <div style="margin-top: 20px">
+            </div>
+        </fieldset>
+    }
+</div>

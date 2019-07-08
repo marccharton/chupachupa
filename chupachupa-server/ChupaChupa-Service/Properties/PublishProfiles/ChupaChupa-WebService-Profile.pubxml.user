@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://localhost:83</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ChupaChupa-Business.dll">
+      <publishTime>11/24/2014 22:08:29</publishTime>
+    </File>
+    <File Include="bin/ChupaChupa-Business.pdb">
+      <publishTime>11/24/2014 22:08:27</publishTime>
+    </File>
+    <File Include="bin/ChupaChupa-Entities.dll">
+      <publishTime>11/23/2014 20:16:27</publishTime>
+    </File>
+    <File Include="bin/ChupaChupa-Entities.pdb">
+      <publishTime>11/23/2014 20:16:27</publishTime>
+    </File>
+    <File Include="bin/ChupaChupa-Service.dll">
+      <publishTime>11/26/2014 01:01:55</publishTime>
+    </File>
+    <File Include="bin/ChupaChupa-Service.pdb">
+      <publishTime>11/26/2014 01:01:55</publishTime>
+    </File>
+    <File Include="bin/Iesi.Collections.dll">
+      <publishTime>03/17/2013 21:08:22</publishTime>
+    </File>
+    <File Include="bin/Iesi.Collections.pdb">
+      <publishTime>03/17/2013 21:08:22</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>11/18/2013 04:51:34</publishTime>
+    </File>
+    <File Include="bin/NHibernate.dll">
+      <publishTime>03/17/2013 21:08:54</publishTime>
+    </File>
+    <File Include="bin/NHibernate.pdb">
+      <publishTime>03/17/2013 21:08:54</publishTime>
+    </File>
+    <File Include="ServiceContractImpl/ServiceContractImpl.svc">
+      <publishTime>11/25/2014 22:23:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/26/2014 01:01:55</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ChupaChupa-Entities"
+                   namespace="ChupaChupa.Entities">
+
+  <class name="User" table="&quot;USER&quot;">
+    <id name="IdEntity" column="IDUSER" unsaved-value="0">
+      <generator class="native" />
+    </id>
+
+    <property name="LoginMail" column="LOGINMAIL"/>
+    <property name="Password" column="PASSWORD"/>
+    <property name="OAuthToken" column="OAUTHTOKEN"/>
+
+    <bag name="Categories" table="CATEGORY" lazy="false" cascade="all-delete-orphan">
+      <key column="IDUSER" not-null="false"/>
+      <one-to-many class="Category"/>
+    </bag>
+
+    <bag name="RssChannel" table="USERRSSCHANNEL">
+      <key column="IDUSER"/>
+      <many-to-many class="RssChannel" column="IDRSSCHANNEL"/>
+    </bag>
+
+    <bag name="RssItemsRead" table="USERRSSITEM">
+      <key column="IDUSER"/>
+      <many-to-many class="RssItem" column="IDRSSITEM"/>
+    </bag>
+
+    
+                  
+  </class>
+
+</hibernate-mapping>
+

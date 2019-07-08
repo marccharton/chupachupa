@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "AfficherArticle";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<nav class="breadcrumbs" style="margin-top: 20px">
+    <ul>
+        <li><a href="/Home/Index">Chupa</a></li>
+        <li>@Html.ActionLink("Liste des flux", "List", new { controller = "Flux", catId = @ViewBag.catId })</li>
+        <li>@Html.ActionLink("Liste des articles", "List", new { channelId = @ViewBag.channelId, catId = @ViewBag.catId })</li>
+        <li class="active">@Html.ActionLink("Article", "Afficher", new { itemId = @ViewBag.itemId, channelId = @ViewBag.channelId, catId = @ViewBag.catId })</li>
+    </ul>
+</nav>
+<fieldset>
+    <p id="boxUserName">Bonjour @ViewBag.userName, voulez-vous vous @Html.ActionLink(" déconnecter ?", "Logout")</p>
+</fieldset>
+<div class="grid fluid">
+    <div class="row">
+        <div class="span12">
+            <div class="panel">
+                <div class="panel-header">
+                    @ViewBag.itemTitle
+                </div>
+                <div class="panel-content">
+                    <img src="~/Content/images/logo.png" class="place-left margin10 nlm ntm size5">
+                    @ViewBag.itemDescription
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

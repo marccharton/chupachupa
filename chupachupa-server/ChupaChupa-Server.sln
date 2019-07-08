@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChupaChupa-Business", "ChupaChupa-Business\ChupaChupa-Business.csproj", "{768CA667-E30B-414D-90AC-987BE8D41676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChupaChupa-Business-Test", "ChupaChupa-Business-Test\ChupaChupa-Business-Test.csproj", "{B545DC98-1664-4AEE-9B45-A76C1898D71A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChupaChupa-Service", "ChupaChupa-Service\ChupaChupa-Service.csproj", "{E1FA5693-CE81-499B-8021-5A0DC38D8509}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EA1C0FD1-6CDF-439A-A22C-0A9C0177127B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChupaChupa-Entities", "ChupaChupa-Entities\ChupaChupa-Entities.csproj", "{99AE7772-183D-4B79-BC82-F702E4A193EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChupaChupa-Entities-Test", "ChupaChupa-Entities-Test\ChupaChupa-Entities-Test.csproj", "{7D10136E-6E16-4D0B-A263-C414E2859C4C}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ChupaChupa-Azure", "ChupaChupa-Azure\ChupaChupa-Azure.ccproj", "{566AF555-8CF1-4435-ACEE-07690441DE52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChupaChupa-Service-Test", "ChupaChupa-Service-Test\ChupaChupa-Service-Test.csproj", "{44620F20-16B8-4FA6-8905-F8CABC3AAA64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{768CA667-E30B-414D-90AC-987BE8D41676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768CA667-E30B-414D-90AC-987BE8D41676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768CA667-E30B-414D-90AC-987BE8D41676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768CA667-E30B-414D-90AC-987BE8D41676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B545DC98-1664-4AEE-9B45-A76C1898D71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B545DC98-1664-4AEE-9B45-A76C1898D71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B545DC98-1664-4AEE-9B45-A76C1898D71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B545DC98-1664-4AEE-9B45-A76C1898D71A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1FA5693-CE81-499B-8021-5A0DC38D8509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1FA5693-CE81-499B-8021-5A0DC38D8509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1FA5693-CE81-499B-8021-5A0DC38D8509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1FA5693-CE81-499B-8021-5A0DC38D8509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99AE7772-183D-4B79-BC82-F702E4A193EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AE7772-183D-4B79-BC82-F702E4A193EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AE7772-183D-4B79-BC82-F702E4A193EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AE7772-183D-4B79-BC82-F702E4A193EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D10136E-6E16-4D0B-A263-C414E2859C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D10136E-6E16-4D0B-A263-C414E2859C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D10136E-6E16-4D0B-A263-C414E2859C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D10136E-6E16-4D0B-A263-C414E2859C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566AF555-8CF1-4435-ACEE-07690441DE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566AF555-8CF1-4435-ACEE-07690441DE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566AF555-8CF1-4435-ACEE-07690441DE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566AF555-8CF1-4435-ACEE-07690441DE52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44620F20-16B8-4FA6-8905-F8CABC3AAA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44620F20-16B8-4FA6-8905-F8CABC3AAA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44620F20-16B8-4FA6-8905-F8CABC3AAA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44620F20-16B8-4FA6-8905-F8CABC3AAA64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B545DC98-1664-4AEE-9B45-A76C1898D71A} = {EA1C0FD1-6CDF-439A-A22C-0A9C0177127B}
+		{7D10136E-6E16-4D0B-A263-C414E2859C4C} = {EA1C0FD1-6CDF-439A-A22C-0A9C0177127B}
+		{44620F20-16B8-4FA6-8905-F8CABC3AAA64} = {EA1C0FD1-6CDF-439A-A22C-0A9C0177127B}
+	EndGlobalSection
+EndGlobal
